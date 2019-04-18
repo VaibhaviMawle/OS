@@ -24,7 +24,7 @@ public class ThreadDemo {
       MyThread t2=new MyThread("t1");
       t2.start();
       t2.setPriority(10);
-      //t.setName("SUYASH");
+      //t.setName("vm");
       for(int i=0;i<10;i++)
       {
       System.out.println("parent");
